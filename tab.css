@@ -36,6 +36,8 @@ body {
 .tab-nav-item.is-active {
   background-color: #87ceeb;
   color: #fff;
+  font-size: 30px;
+  font-weight: bold;
 }
 .tab-contents {
   border: 1px solid#ccc;
