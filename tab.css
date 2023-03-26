@@ -1,0 +1,66 @@
+@media screen and (max-width: 896px) {
+  .tab {
+    margin: auto;
+  }
+}
+
+body {
+  font-size: 16px;
+  color: #333;
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic",
+    sans-serif;
+  line-height: 1.4;
+  background: #fbfaf5 url(images/img_back.gif);
+  -webkit-text-size-adjust: 100%;
+}
+.tab {
+  width: 600px;
+}
+.tab-nav {
+  display: flex;
+}
+.tab-nav-item {
+  margin-right: 2px;
+  background: #ccc;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px 5px 0 0;
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic",
+    sans-serif;
+  font-size: 26px;
+  color: #38a1db;
+}
+.tab-nav-item.is-active {
+  background-color: #87ceeb;
+  color: #fff;
+}
+.tab-contents {
+  border: 1px solid#ccc;
+  padding: 20px;
+}
+.tab-contents-item {
+  display: none;
+}
+.accordion {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.accordion-trigger {
+  margin: 0;
+  padding: 10px;
+  display: block;
+  background: #87ceeb;
+  color: #fff;
+  border-top: 1px solid #fff;
+}
+
+.accordion-contents {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid#ccc;
+  display: none;
+}
